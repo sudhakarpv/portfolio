@@ -1,1 +1,1 @@
-web: pvs_portfolio --log-file -
+web: gunicorn portfolio_pvs.wsgi --log-file -
